@@ -4,7 +4,7 @@ MAINTAINER LQ
 
 # Copy local code to the container image.
 WORKDIR /app
-COPY ruoy-admin.jar .
+COPY ruoyi-admin.jar .
 #COPY pom.xml .
 #COPY ruoyi-admin/ ./ruoyi-admin
 #COPY ruoyi-common/ ./ruoyi-common
