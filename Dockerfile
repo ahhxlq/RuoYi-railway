@@ -5,12 +5,12 @@ MAINTAINER LQ
 # Copy local code to the container image.
 WORKDIR /app
 COPY pom.xml .
-ADD ruoyi-admin/ ./src
-ADD ruoyi-common/ ./src
-ADD ruoyi-framework/ ./src
-ADD ruoyi-generator/ ./src
-ADD ruoyi-quartz/ ./src
-ADD ruoyi-system/ ./src
+ADD ruoyi-admin/ .
+ADD ruoyi-common/ .
+ADD ruoyi-framework/ .
+ADD ruoyi-generator/ .
+ADD ruoyi-quartz/ .
+ADD ruoyi-system/ .
 
 
 # Build a release artifact.
