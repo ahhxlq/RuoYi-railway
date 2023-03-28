@@ -1,4 +1,4 @@
-FROM maven:3.8.1-jdk-8-slim as builder
+FROM openjdk:8-jdk-alpine
 
 MAINTAINER LQ
 
